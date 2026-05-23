@@ -1,0 +1,16 @@
+apiVersion: storage.k8s.io/v1
+kind: StorageClass
+
+metadata:
+  name: ebs-storage
+
+provisioner: ebs.csi.aws.com
+
+allowVolumeExpansion: true   
+
+volumeBindingMode: WaitForFirstConsumer
+
+reclaimPolicy: Delete
+
+parameters:
+  type: gp3
