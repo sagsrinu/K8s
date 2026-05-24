@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
       - name: toys
-        image: 325204716520.dkr.ecr.us-east-1.amazonaws.com/shopping-site-toys:becfa422f138cfa7c15ee45b03bac2a91edde7b6
+        image: 904557616759.dkr.ecr.us-east-1.amazonaws.com/shopping-site-toys:cbd435faf85ccf163f94ceff70cb7364b7605c08
         ports:
         - containerPort: 80
 ---
